@@ -9,8 +9,6 @@ https://drive.google.com/drive/folders/1oICfuuRDst6jJkE2jBzTYL0guo7aGd8S?usp=sha
 2. PMC-VQA数据集中训练集和测试集用到的图像视觉特征（vision_features/）。
 3. 第一阶段训练QCM-LE和第二阶段训练QCMG-A的检查点（checkpoints/）。
 
-预训练基于原始的flan-t5代码，来自于XX工作室，并使用PMC-OA数据集进行预训练。
-
 ## 目录结构
 ### data
 放数据集
