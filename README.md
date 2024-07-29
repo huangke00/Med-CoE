@@ -1,24 +1,24 @@
 # medVQA
-该仓库提供了(我们方法)的代码，这是一个利用思维链和大语言模型在多模态模型上预训练并微调的能够做医学视觉问答的模型。详情请参考我们的论文：(论文)
+
+This repository provides the code for our method, a model capable of Medical Visual Question Answering by leveraging Chain-of-Thought reasoning and Large Language Models for pre-training and fine-tuning on multimodal models. For more details, please refer to our paper: [Paper]
+
 ## Download
-https://drive.google.com/drive/folders/1oICfuuRDst6jJkE2jBzTYL0guo7aGd8S?usp=sharing
 
-在这里我们提供了训练所需的数据，包括：
+We provide the data needed for training [here](https://drive.google.com/drive/folders/1oICfuuRDst6jJkE2jBzTYL0guo7aGd8S?usp=sharing
+), including:
 
-1. PMC-VQA数据集中训练集和测试集的JSON格式数据。
-2. PMC-VQA数据集中训练集和测试集用到的图像视觉特征（vision_features/）。
-3. 第一阶段训练QCM-LE和第二阶段训练QCMG-A的检查点（checkpoints/）。
+1. JSON format data for the train and test sets in the PMC-VQA dataset.
+2. Visual features of images used in the train and test sets of the PMC-VQA dataset (vision_features/).
+3. Checkpoints for the first phase of training QCM-LE and the second phase of training QCMG-A (checkpoints/).
 
-## 目录结构
+## Directory Structure
 ### data
-放数据集
+Contains the datasets.
 ### experiments
-放实验结果
+Contains the experimental results.
 ### model
-放模型检查点
+Contains the model checkpoints.
 ### scripts
-放运行的脚本
+Contains the scripts to run the model.
 ### src
-放主要代码
-
-## VQA(Visual Qustion Answering)
+Contains the main code.
